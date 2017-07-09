@@ -25,3 +25,8 @@ This is empty string: ""
 print '''
 It works with tripple single quotes (''\') too
 '''
+
+
+while True:
+    for i in ["/", "-", "|", "\\", "|"]:
+        print "%s\r" % i,
